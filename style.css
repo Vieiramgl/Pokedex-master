@@ -75,11 +75,33 @@ header h1 {
     z-index: 1;
 }
 
+
 .pokemon-name {
     font-size: 1.5em;
-    margin: 10px 0;
+    margin: 10px 0 5px 0;
     text-transform: capitalize;
     color: #007bff; /* Azul para nomes */
+    position: relative;
+    z-index: 1;
+}
+
+.pokemon-region {
+    font-size: 1em;
+    color: #228B22;
+    margin-bottom: 5px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.pokemon-thing {
+    font-size: 0.95em;
+    color: #8B008B;
+    margin-top: 10px;
+    background: #f7f7fa;
+    border-radius: 6px;
+    padding: 6px 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
     position: relative;
     z-index: 1;
 }
