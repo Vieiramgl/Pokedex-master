@@ -99,9 +99,9 @@ document.addEventListener('DOMContentLoaded', () => {
         card.appendChild(pokemonImage);
         card.appendChild(pokemonId);
         card.appendChild(pokemonName);
-        card.appendChild(pokemonRegion);
+        card.appendChild(pokemonRegion); // Região logo após o nome
+        card.appendChild(pokemonThing);  // Coisa logo após a região
         card.appendChild(pokemonTypes);
-        card.appendChild(pokemonThing);
 
         pokedexContainer.appendChild(card);
     };
