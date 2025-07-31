@@ -85,23 +85,32 @@ header h1 {
     z-index: 1;
 }
 
+
 .pokemon-region {
     font-size: 1em;
     color: #228B22;
     margin-bottom: 5px;
     font-weight: bold;
+    background: #eafbe7;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: inline-block;
+    box-shadow: 0 1px 2px rgba(34,139,34,0.07);
     position: relative;
     z-index: 1;
 }
 
+
 .pokemon-thing {
-    font-size: 0.95em;
-    color: #8B008B;
-    margin-top: 10px;
-    background: #f7f7fa;
-    border-radius: 6px;
-    padding: 6px 10px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    font-size: 1em;
+    color: #fff;
+    margin-top: 12px;
+    background: linear-gradient(90deg, #8B008B 60%, #e0e0ff 100%);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(139,0,139,0.09);
+    text-align: center;
     position: relative;
     z-index: 1;
 }

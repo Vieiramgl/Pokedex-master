@@ -76,10 +76,12 @@ document.addEventListener('DOMContentLoaded', () => {
         pokemonName.classList.add('pokemon-name');
         pokemonName.textContent = pokemon.name;
 
-        const pokemonRegion = document.createElement('p');
+        // Região
+        const pokemonRegion = document.createElement('div');
         pokemonRegion.classList.add('pokemon-region');
-        pokemonRegion.textContent = `Região: ${pokemon.region}`;
+        pokemonRegion.innerHTML = `<strong>Região:</strong> ${pokemon.region}`;
 
+        // Tipos
         const pokemonTypes = document.createElement('div');
         pokemonTypes.classList.add('pokemon-types');
         pokemon.types.forEach(type => {
@@ -89,9 +91,10 @@ document.addEventListener('DOMContentLoaded', () => {
             pokemonTypes.appendChild(typeBadge);
         });
 
-        const pokemonThing = document.createElement('p');
+        // Coisas
+        const pokemonThing = document.createElement('div');
         pokemonThing.classList.add('pokemon-thing');
-        pokemonThing.textContent = pokemon.thing;
+        pokemonThing.innerHTML = `<strong>${pokemon.thing}</strong>`;
 
         card.appendChild(pokemonImage);
         card.appendChild(pokemonId);
